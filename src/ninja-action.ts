@@ -37,7 +37,7 @@ export class NinjaAction extends LitElement {
     .ninja-icon {
       font-size: var(--ninja-icon-size);
       max-width: var(--ninja-icon-size);
-      max-height: var(--ninja-icon-size);
+      max-height: 1.3rem;
       margin-right: 1em;
       color: var(--ninja-icon-color);
       margin-right: 1em;
@@ -77,6 +77,23 @@ export class NinjaAction extends LitElement {
     }
     .ninja-hotkeys + .ninja-hotkeys {
       margin-left: 1em;
+    }
+
+    .badge {
+      padding: 0.25em 0.4em;
+      font-size: 75%;
+      font-weight: 700;
+      line-height: 1;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: 0.25rem;
+      min-width: 1.3rem;
+    }
+  
+    .badge-primary {
+      color: #fff;
+      background-color: #007bff;
     }
   `;
 

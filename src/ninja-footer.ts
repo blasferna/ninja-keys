@@ -13,7 +13,7 @@ export const footerHtml = html` <div class="modal-footer" slot="footer">
       />
     </svg>
 
-    to select
+    seleccionar
   </span>
   <span class="help">
     <svg
@@ -34,11 +34,11 @@ export const footerHtml = html` <div class="modal-footer" slot="footer">
       <path d="M0 0h24v24H0V0z" fill="none" />
       <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />
     </svg>
-    to navigate
+    navegar
   </span>
   <span class="help">
     <span class="ninja-examplekey esc">esc</span>
-    to close
+    cerrar
   </span>
   <span class="help">
     <svg
@@ -53,6 +53,6 @@ export const footerHtml = html` <div class="modal-footer" slot="footer">
         clip-rule="evenodd"
       />
     </svg>
-    move to parent
+    ir al padre
   </span>
 </div>`;

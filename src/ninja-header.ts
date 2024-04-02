@@ -62,7 +62,7 @@ export class NinjaHeader extends LitElement {
   hideBreadcrumbs = false;
 
   @property()
-  breadcrumbHome = 'Home';
+  breadcrumbHome = 'Inicio';
 
   @property({type: Array})
   breadcrumbs: string[] = [];
